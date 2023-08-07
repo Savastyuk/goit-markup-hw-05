@@ -445,10 +445,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-left: 80px;
 }
 
 .footer-form{
     display: flex;
+    gap: 24px;
 }
 
 .label-footer{
@@ -459,15 +461,16 @@ body {
 .footer-input{
     width: 264px;
     height: 40px;
-    border: 1px solid #ffffff;
-    border-color: transparent;
+    background-color: transparent;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding-left: 16px;
+    margin-left: 80px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     color: #FFFFFF;
     border-radius: 4px;
+    border: 1px solid #ffffff;
 }
 
 .button-subscribe{
@@ -483,9 +486,10 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
-    border-color: #4D5AE5;
+    background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    
 }
 
 .svg-button{
